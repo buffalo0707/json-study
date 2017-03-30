@@ -50,7 +50,35 @@ A kitchen has many items.
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
 ```json
-<!-- your answer here -->
+{
+  "kitchen": {
+    "cupboard": {
+      "bowls": 6,
+      "plates": 6,
+    },
+    "stove"{
+      "type": "electric",
+      "elements"[
+        {"value": "small"},
+        {"value": "medium"},
+        {"value": "large"},
+        {"value": "extra large"}
+      ]
+    },
+    "spice rack"{
+      rack: [
+        {"value": "chives"},
+        {"value": "lemon grass"},
+        {"value": "mint"}
+      ]
+      rack: [
+        {"value": "cinnamon"},
+        {"value": "nutmeg"},
+        {"value": "vanilla"},
+      ]
+    }
+  }
+}
 ```
 
 ## Modeling Data Using JSON: Part II
@@ -62,7 +90,12 @@ delicious apple.
 Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
 ```json
-<!-- your answer here -->
+{"fruit basket":[{
+  "fuji apple": 2,
+  "gala apple": 7,
+  "golden delicious": 1
+}]
+}
 ```
 
 ## JSON Methods
@@ -70,7 +103,7 @@ Copy the JSON that you wrote for the previous question and include the new infor
 Can you write a method in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No, because the JSON data is a string rather than a JS object.
 ```
 
 ## JSON Comments
@@ -78,5 +111,5 @@ Can you write a method in the JSON that you wrote above?
 Can you write comments in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No
 ```
